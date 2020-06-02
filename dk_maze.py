@@ -14,7 +14,7 @@ maze = pygame.display.set_mode((640, 480))
 background = pygame.image.load('background.jpg').convert()
 maze.blit(background, (0, 0))
 
-mushroom = pygame.image.load('shroom.png').convert()
+mushroom = pygame.image.load('shroom.png').convert_alpha()
 maze.blit(mushroom, (200, 300))
 
 # Updates the display of the game
